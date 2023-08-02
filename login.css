@@ -1,0 +1,64 @@
+body {
+    background-color: gray;
+}
+
+h1
+{
+    display: flex;
+    justify-content: center;
+    color:bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: bisque;
+    
+}
+
+.container {
+    justify-content: center;
+    border: 5px aquamarine solid;
+    border-width: 300px;
+    border-radius: 10px;
+}
+
+label {
+    margin: 20px;
+    color: gold;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+input {
+    margin: 20px;
+    padding: 7px;
+    border: 3px solid black;
+    border-radius:8px;
+
+}
+
+#StaySignedIn {
+    margin-left: -10px;
+    border: 3px solid black;
+}
+
+button{
+    margin-left: 30px;
+    border: 3px solid blue;
+    border-radius: 8px;
+}
+
+p {
+    margin-left: 20px;
+    font-size: 18px;}
+a {
+        text-decoration: none;
+        font-size: 18px;
+}
+
+button:hover {
+    box-shadow: 1px 2px 10px blue;
+}

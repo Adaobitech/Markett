@@ -1,0 +1,86 @@
+h1 {
+    color: #6495ed;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+body {
+    background-image: url("black-glossy-mug-black-11oz-handle-on-left-642b96f1882ec.png");
+}
+span {
+    color: palevioletred;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    color: rgb(2, 48, 14);
+    text-shadow: 4px 2px 3px palevioletred;
+}
+
+.Form {
+    border: 3px solid rgb(91, 138, 91);
+    border-radius: 9px;
+    padding: 20px;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    position: absolute;
+    top: 200px;
+    left: 450px;
+}
+
+label {
+    font-size: 20px;
+    margin-top: 20px;
+}
+input {
+    border: 2px solid green;
+    border-radius: 9px;
+    padding: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 20px;
+}
+input[type=password] {
+width: 100%;
+  box-sizing: border-box;
+  border: 2px solid green;
+  border-radius: 9px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('130-1303682_security-password-2-icon-password-icon-in-png.png');
+  background-position: 10px 10px;
+  background-size: 25px 25px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+button {
+    font-size: 22px;
+    background-color: palevioletred;
+    color: rgb(88, 73, 12);
+    border: 2px solid #145534;
+    border-radius: 9px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+button:hover{
+    background-color: green;
+}
+
+a {
+    font-size: 18px;
+    margin: 20px;
+    color: #6495ed;
+    text-decoration: none;
+}
+a:hover {
+    color: palevioletred;
+}
